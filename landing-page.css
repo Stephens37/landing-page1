@@ -6,7 +6,10 @@
 .navbar {
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
+=======
 
+>>>>>>> cd15bc6b73142c2013399cf7e60cb0cb03a35384
 }
 
 
@@ -14,6 +17,16 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 16px;
+<<<<<<< HEAD
+    
+    justify-content: center;
+}
+
+.header-link {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+=======
     margin-left: 500px;
     flex: 1 0 0;
 }
@@ -22,6 +35,7 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     flex: 1;
+>>>>>>> cd15bc6b73142c2013399cf7e60cb0cb03a35384
 }
 
 .header-logo {
@@ -29,8 +43,14 @@ ul {
     color: #f9faf8;
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
+    justify-content: center;
+    flex: 1;
+    margin-left: 100px;
+=======
     flex: 1;
     padding-left: 100px;
+>>>>>>> cd15bc6b73142c2013399cf7e60cb0cb03a35384
 }
 
 .header {
@@ -39,12 +59,38 @@ ul {
 
 .header-left {
     display: flex;
+<<<<<<< HEAD
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 200px;
+    margin-right: 600px;
+=======
+    justify-content: center;
+    align-items: center;
+>>>>>>> cd15bc6b73142c2013399cf7e60cb0cb03a35384
 }
 
 .header-right {
     display: flex;
+<<<<<<< HEAD
+    flex-direction: column;
+    align-items: center;
+}
+
+/*ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    column-gap: 100px;
+=======
     justify-content: flex-end;
     align-items: center;
 }
@@ -55,6 +101,7 @@ ul {
     gap: 16px;
     margin-top: 300px;
     
+>>>>>>> cd15bc6b73142c2013399cf7e60cb0cb03a35384
 }
 
 h1 {
@@ -71,10 +118,23 @@ button {
 
 .title-pic {
     display: flex;
+<<<<<<< HEAD
+    margin-top: 200px;
+    margin-bottom: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 320px;
+}
+
+p {
+    display: flex;
+    margin: 50px, 0;
+=======
     flex-wrap: wrap;
 }
 
 img {
     display: flex;
     padding
+>>>>>>> cd15bc6b73142c2013399cf7e60cb0cb03a35384
 }
