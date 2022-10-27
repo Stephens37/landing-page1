@@ -82,26 +82,45 @@ ul {
 .second-section {
     display: flex;
     height: 900px;
-    justify-content: center;
     font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .random {
     display: flex;
     height: 100px;
+    margin-top: 100px;
     font-size: 36px;
     color: #1f2937;
-    margin: 100px;
-    float: right;
+    
 }
 
 .blue-box {
     display: flex;
-    flex-direction: row;
-    float: left;
-    height: 50px;
-    width: 50px;
-    border: 100px solid blue;
-    border-radius: 2px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
 
+.boxes {
+    display: flex;
+    height: 70px;
+    gap: 180px;
+    margin-top: 50px;
+}
+
+.boxes-captions {
+    display: flex;
+    justify-content: row;
+    margin-top: 250px;
+    gap: 32px;
+}
+
+.third-section {
+    display: flex;
+    height: 900px;
+    background-color: #E5E7EB;
 }
