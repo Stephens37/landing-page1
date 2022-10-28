@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.first-section {
+    background-color: #1f2937;
+    height: 900px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    margin: 16px;
+}
+
+.hero {
+    display: flex;
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-bottom: 300px;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: flex-start;
+    width: 900px;
+    height: 179px;
+    flex: 1;
+    float: left;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    width: 700px;
+}
+
+.header-logo {
+    display: flex;
+    margin: 16px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-description {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
+}
+
+.sign-up {
+    display: flex;
+    width: 100px;
+    background-color: #3882F6;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+#sunrise {
+    display: flex;
+    width: 500px;
+    height: 179px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.second-section {
+    display: flex;
+    height: 900px;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+}
+
+
+.random {
+    display: flex;
+    height: 100px;
+    margin-top: 100px;
+    font-size: 36px;
+    color: #1f2937;
+    
+}
+
+.blue-box {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+
+.boxes {
+    display: flex;
+    height: 70px;
+    gap: 180px;
+    margin-top: 50px;
+}
+
+.boxes-captions {
+    display: flex;
+    justify-content: row;
+    margin-top: 250px;
+    gap: 32px;
+}
+
+.third-section {
+    display: flex;
+    height: 900px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quote {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.thor {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    justify-content: flex-end;
+    font-size: 20px;
+}
