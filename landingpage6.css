@@ -78,7 +78,7 @@ ul {
     background-color: hsl(.60, .91, .59);
   }
     
-  .sign-up:active {
+.sign-up:active {
     background-color: rgb(56, 75, 246);
     border-color: rgb(56, 75, 246);
   }
@@ -213,7 +213,7 @@ ul {
     background-color: hsl(.60, .91, .59);
   }
     
-  .sign-up2:active {
+.sign-up2:active {
     background-color: rgb(56, 75, 246);
     border-color: #E5E7EB;
   }
@@ -226,6 +226,8 @@ ul {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
+
+
 
 .fifth-section {
     display: flex;
